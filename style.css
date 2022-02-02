@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.heading{
+    font-size: 77px;
+    margin-top: 24px;
+    font-family: 'Rowdies', cursive;
+}
+#myCanvas{
+    display: none;
+    margin: 30px auto;
+}
+
+#main_container {
+    margin: 0 auto;
+}
+#instruction{
+    width: 45%;
+    margin:auto;
+    font-family: 'Rowdies', cursive;
+    display: block;
+}
+#inst{
+    text-decoration: underline;
+    font-size: 26px;
+}
+#enter{
+    margin-top: 84px;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'DM Sans', sans-serif;
+}
+#steps{
+    font-size: 18px;
+}

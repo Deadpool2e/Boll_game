@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Rowdies:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Boll Game</title>
+  </head>
+  <body bgcolor="#66ffff">
+    <div id="main-container">
+      <div class="heading">Boll Game</div>
+      <div id="instruction">
+        <h3 id="inst">Instructions for Game</h3>
+        <ul id="steps">
+          <li>Use the arrow keys to move the ship.</li>
+          <li>Use space key to fire laser.</li>
+          <li>
+            When laser hits the boll, boll gets damaged and your score will
+            increase.
+          </li>
+          <li>If bolls reach to the end, you will lose.</li>
+          <li>If ship hits the boll, your life will decrease by 1.</li>
+          <li>You will get 3 lifes.</li>
+          <li>If any glitch occurs in the game, just refresh the screen.</li>
+        </ul>
+        <h2 id="enter">Press ENTER key to start the game. . . . </h2>
+      </div>
+      <canvas id="myCanvas" width="1000" height="500"></canvas>
+    </div>
+    <script src="src.js"></script>
+  </body>
+</html>
